@@ -9,14 +9,15 @@
 </head>
 
 <style>
-    .banner{
+    .banner {
         height: 100vh;
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(images/logo\ mu\ 2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/logo\ mu\ 2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    .banner-content{
+
+    .banner-content {
         justify-content: center;
         align-items: center;
         height: 100%;
@@ -57,7 +58,7 @@
     <!-- ====== END NAVBAR =====  -->
 
     <!-- ====== BANNER ======= -->
-    <div class="container-fluid">
+    <div class="container-fluid gx-0">
         <div class="banner">
             <div class="banner-content text-white">
                 <h1>Welcome Chuy</h1>
@@ -66,42 +67,6 @@
         </div>
     </div>
     <!-- ======= END BANNER ======== -->
-    
-    <!-- ====== CAROUSEL ====== -->
-    <div class="container mt-3">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/mus.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/must.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/logo mu 2.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <!-- ===== End CAROUSEL ======== -->
 
     <!-- container -->
     <div class="container">
@@ -266,9 +231,48 @@
         </div>
     </div>
     <!-- end container -->
+
+    <!-- ====== CAROUSEL ====== -->
+    <div class="container mt-3">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/mus.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/must.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/logo mu 2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- ===== End CAROUSEL ======== -->
+
+    <!-- ====== DETAIL ========= -->
     <div class="container">
         <h2 class="text-center">Details</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quibusdam unde ad quo dolorem quis repellendus,
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quibusdam unde ad quo
+            dolorem quis repellendus,
             rerum eaque similique provident?</p>
         <div class="row align-items-center bg-danger p-4 rounded-3 shadow-lg">
             <div class="col-md-6">
@@ -281,6 +285,7 @@
             </div>
         </div>
     </div>
+    <!-- ====== END DEAIL ======= -->
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 
